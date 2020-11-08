@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="/leaflet/leaflet.css" />
+  <script src="/leaflet/leaflet.js"></script>
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+</head>
+
+<body>
+  <header>
+    <div class="main-container">
+      <section>
+        <div class="title">
+          <h1>Address Tracker</h1>
+          <div class="form">
+            <form id="form">
+              <input type="text" class="" placeholder="Search for any ip address" maxlength="15">
+              <button type="submit" class="submit-btn" id="btn"><span class="icon"><i class="fa fa-search"></i></span></button>
+            </form>
+          </div>
+        </div>
+    </div>
+  </header>
+  <div class="container">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">IP Address</h5>
+        <h6 class="card-subtitle" id="ip">192.168.0.01</h6>
+        <p class="card-text"></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">CITY</h5>
+        <h6 class="card-subtitle" id="city">BARCELONA</h6>
+        <p class=""></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Hora</h5>
+        <h6 class="card-subtitle" id="timezone">-07:00</h6>
+        <p class="card-text"></p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  
+    <div class="map" id="mapid"></div>
+  
+
+  <!-- <div class="footer-container">
+    <section>
+      <div class="attribution">
+        <a href="" target="_blank">Walk Experience</a>
+      </div>
+    </section>
+  </div> -->
+
+  <script type="text/javascript" src="./app/app.js"></script>
+</body>
+
+</html>
